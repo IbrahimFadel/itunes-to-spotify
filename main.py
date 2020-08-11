@@ -20,7 +20,6 @@ def parse_itunes_playlist_xml():
 				if pair[0] == 'Name' or pair[0] == 'Artist':
 					track_dict[pair[0]] = pair[1]
 					if pair[0] == 'Artist':
-						track_dict["tried_everything"] = False
 						track_data.append(track_dict)
 				pair = []
 
