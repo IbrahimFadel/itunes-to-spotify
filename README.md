@@ -4,11 +4,14 @@ A tool to move your music from itunes to spotify
 ## Setup
 
 Go to itunes, and select the playlist you want to transfer to spotify
+
 Do: ```File > Library > Export Playlist```
+
 Make sure to export as XML
 
-Head over to spotify and get credentials
-Then edit ```run.sh``` with your info
+Head over to the [https://developer.spotify.com/dashboard/login](spotify developer console) and get credentials
+
+Edit ```run.sh``` with your info
 
 ## Usage
 
