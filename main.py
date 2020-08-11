@@ -1,11 +1,9 @@
 import xml.etree.ElementTree as ET
 import spotify
+import os
 
-# xml_path = 'LoFi.xml'
-# playlist_name = 'testing'
-
-xml_path = 'LoFi.xml'
-playlist_name = 'test'
+xml_path = os.environ['PLAYLIST_XML']
+playlist_name = os.environ['PLAYLIST_NAME']
 
 def parse_itunes_playlist_xml():
 	track_data = []

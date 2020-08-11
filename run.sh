@@ -4,4 +4,7 @@ export SPOTIPY_REDIRECT_URI=
 
 export SPOTIFY_USER_ID=
 
+export PLAYLIST_XML=Playlist.xml
+export PLAYLIST_NAME=CreatePlaylistWithThisName
+
 python3 main.py
