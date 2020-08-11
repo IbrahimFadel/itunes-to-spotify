@@ -1,0 +1,7 @@
+export SPOTIPY_CLIENT_ID=
+export SPOTIPY_CLIENT_SECRET=
+export SPOTIPY_REDIRECT_URI=
+
+export SPOTIFY_USER_ID=
+
+python3 main.py
