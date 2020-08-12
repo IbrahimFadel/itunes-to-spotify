@@ -9,7 +9,7 @@ Do: ```File > Library > Export Playlist```
 
 Make sure to export as XML
 
-Head over to the [https://developer.spotify.com/dashboard/login](spotify developer console) and get credentials
+Head over to the [spotify developer console](https://developer.spotify.com/dashboard/login) and get credentials
 
 Edit ```run.sh``` with your info
 
